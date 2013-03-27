@@ -1,0 +1,24 @@
+<package>
+  <description brief="robot_tools">
+
+    Contains minimalistic tools each of which only does one
+    thing and can be universally used by anybody.
+    Tools that are short and can be contained within few
+    files are welcome.
+
+    Big complex tools do not belong here.
+    Once the tool is too big, move it somewhere else.
+
+    Tools with non-standard dependencies do not belong here.
+
+  </description>
+  <author>Mikhail Medvedev</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robot_tools</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+
+</package>
